@@ -1,0 +1,19 @@
+<%- include Partials/header.ejs -%>
+
+<form action="/compose" method="post">
+    <div class="form-group">
+        <label for="InputTitle">Title</label>
+        <textarea type="email" class="form-control" id="InputTitle"  name="String" rows="1"></textarea>
+        <label for="InputTitle">Post</label>
+        <textarea type="email" class="form-control" id="InputPoste"  name="String1" rows="10"></textarea>
+        
+    </div>
+   
+    <div>
+        <button type="submit" class="btn btn-primary" name="publish" > Publish </button>
+    </div>
+    
+</form>
+
+
+<%- include Partials/footer.ejs -%>
